@@ -1,0 +1,11 @@
+
+
+nav div.container-fluid {
+    background-color:rgb(132, 171, 159);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar {
+    padding: 0;
+}

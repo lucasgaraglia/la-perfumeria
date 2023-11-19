@@ -1,0 +1,9 @@
+1) npm i react-router-dom, para la navegacion dentro de la pagina
+2) agrego bootstrap con npm i bootstrap@5.3.2
+3) creo carpeta components con las carpetas de los componentes navbar y footer y demas
+4) npm install react-router-dom
+5) en main.jsx, encierro App con etiquetas BrowserRouter
+6) cambio etiquetas anchor por link
+7) en App.jsx, pongo etiqueta Routes, y dentro pongo etiquetas Route, con path y element, del elemento que se renderizara
+al acceder a dicho path. en element, va la etiqueta a renderizar
+8) en los links de la navbar, agrego propiedad to="" con los paths puestos en el routes

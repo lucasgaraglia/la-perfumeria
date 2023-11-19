@@ -1,0 +1,26 @@
+.cards-wrapper {
+    display: flex;
+}
+
+.card {
+    width: 18rem;
+    background-color: rgb(132, 171, 159);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-prod {
+    text-align: center;
+}
+
+
+@media (min-width: 900px) {
+    .container-carousel-products {
+        display: flex;
+        justify-content: center;
+    }
+}

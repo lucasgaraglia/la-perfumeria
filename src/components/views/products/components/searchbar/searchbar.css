@@ -1,0 +1,24 @@
+
+div.container {
+    margin-top: 10px;
+}
+
+form.form-inline {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+@media (min-width: 450px) {
+    /* form.form-inline {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    } */
+
+    form.form-inline > input {
+        width: 300px;
+    }
+}

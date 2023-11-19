@@ -1,0 +1,42 @@
+
+div.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+form.form-contact {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form.form-contact > div.mb-3 {
+    width: 100%;
+}
+
+form.form-contact > div.mb-3 > input {
+    width: 100%;
+}
+
+form.form-contact > div.mb-3 > textarea {
+    width: 100%;
+    height: 100px;
+}
+
+
+@media (min-width: 500px) {
+    form.form-contact {
+        width: 400px;
+
+    }
+}
+
+@media (min-width: 600px) {
+    form.form-contact {
+        width: 500px;
+
+    }
+}
